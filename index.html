@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Mavis Slider...</title>
+		<script src="mqtt.js"></script>
+		<script src="jquery.js"></script>
+		<script src="client.js"></script>
+		<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-dark bg-primary">
+			<div class="container">
+				<a class="navbar-brand" href="#">Mavis Slider</a>
+			</div>
+		</nav>
+		<div class="container mt-4">
+			<div class="custom-control custom-switch mb-4">
+				<input type="checkbox" class="custom-control-input" id="greenToggle">
+				<label class="custom-control-label" for="greenToggle">Green Light</label>
+			</div>
+
+			<label for="targetRange">Move Robot</label>
+			<input type="range" class="custom-range" min="0" max="18000" id="targetRange">
+		</div>
+	</body>
+</html>
